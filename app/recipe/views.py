@@ -16,6 +16,7 @@ from rest_framework.permissions import IsAuthenticated
 from core.models import Recipe, Tag, Ingredient
 from . import serializers
 
+
 @extend_schema_view(
     list=extend_schema(
         parameters=[
